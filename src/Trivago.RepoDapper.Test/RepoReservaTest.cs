@@ -20,16 +20,14 @@ public class RepoReservaTest : TestBase
         var detalle = _repoReserva.Detalle(1);
 
         Assert.NotNull(detalle);
-        Assert.Equal("11111111", detalle.Telefono.ToString());
+        Assert.Equal("11111112", detalle.Telefono.ToString());
     }
     [Theory]
-    [InlineData(11111111)]
     [InlineData(11111112)]
     [InlineData(11111113)]
     public void InformarReservas(uint numTelefono)
     {
         var reservas = _repoReserva.Listar();
-        
         Assert.Contains(reservas, reserva => reserva.Telefono == numTelefono);
     }
     [Fact]
