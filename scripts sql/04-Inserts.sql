@@ -35,7 +35,7 @@ call insert_tipo_habitacion('Gran suite', @idGranSuite);
 call insert_habitacion(@idHotelBuenosAires, @idSuite, 10000.00, @idHabitacionHotelBuenosAiresSuite1);
 call insert_habitacion(@idHotelMendoza, @idJuniorSuite, 20000.00, @idHabitacionHotelMendozaJuniorSuite1);
 call insert_habitacion(@idHotelSantiagodelEstero, @idGranSuite, 30000.00, @idHabitacionHotelSantiagodelEsteroGranSuite1);
-
+call insert_habitacion(@idHotelSantiagodelEstero2, @idSuite, 40000.00, @idHabitacionHotelSantiagodelEsteroSuite2);
 -- delete from Habitacion
 -- where idHabitacion in (1, 2, 3);
 
@@ -56,7 +56,7 @@ call insert_usuario('Luz', 'Ibarra', 'luzibarra@gmail.com', '231', @idUsuarioLuz
 call insert_reserva(@idHabitacionHotelBuenosAiresSuite1, @idMercadoPago, @idUsuarioLeonardoCheng, '2024-11-01', '2024-11-03', 11111111, @idReservaLeonardoChengHabitacionHotelBuenosAiresSuite1);
 call insert_reserva(@idHabitacionHotelMendozaJuniorSuite1, @idEfectivo, @idUsuarioMarioRojas, '2024-11-04', '2024-12-02', 11111112, @idReservaMarioRojasHabitacionHotelBuenosAiresSuite1);
 call insert_reserva(@idHabitacionHotelSantiagodelEsteroGranSuite1, @idVisaDebito, @idUsuarioLuzIbarra, '2024-12-04', '2025-01-03', 11111113, @idReservaLuzIbarraHabitacionHotelBuenosAiresSuite1);
-
+call insert_reserva(@idHabitacionHotelSantiagodelEsteroSuite2, @idVisaDebito, @idUsuarioLuzIbarra, '2025-01-04', '2025-01-07', 11111114, @idReservaLuzIbarraHabitacionHotelSantiagodelEsteroSuite2);
 -- delete from Reserva
 -- where idReserva in (1, 2, 3);
 
