@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trivago.Core", "Trivago.Core\Trivago.Core.csproj", "{7AF9C75A-F9F6-4350-88C0-49FBFE977953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trivago.RepoDapper", "Trivago.RepoDapper\Trivago.RepoDapper.csproj", "{943AC071-82AB-479E-AABE-90F8CEFDD896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trivago.RepoDapper.Test", "Trivago.RepoDapper.Test\Trivago.RepoDapper.Test.csproj", "{BCC3AB5C-E7AC-47A1-AC5C-0C23FCF4C357}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AF9C75A-F9F6-4350-88C0-49FBFE977953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF9C75A-F9F6-4350-88C0-49FBFE977953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF9C75A-F9F6-4350-88C0-49FBFE977953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF9C75A-F9F6-4350-88C0-49FBFE977953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943AC071-82AB-479E-AABE-90F8CEFDD896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943AC071-82AB-479E-AABE-90F8CEFDD896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943AC071-82AB-479E-AABE-90F8CEFDD896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943AC071-82AB-479E-AABE-90F8CEFDD896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC3AB5C-E7AC-47A1-AC5C-0C23FCF4C357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC3AB5C-E7AC-47A1-AC5C-0C23FCF4C357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC3AB5C-E7AC-47A1-AC5C-0C23FCF4C357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC3AB5C-E7AC-47A1-AC5C-0C23FCF4C357}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
