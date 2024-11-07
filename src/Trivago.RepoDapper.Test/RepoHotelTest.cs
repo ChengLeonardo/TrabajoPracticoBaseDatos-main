@@ -60,4 +60,14 @@ public class RepoHotelTest : TestBase
         Assert.Contains(hoteles, hotel => hotel.Direccion == direccion);
     }
 
+    [Fact]
+    public void EliminarHotel()
+    {
+        _repoHotel.EliminarHotel(4);
+
+        var hotelEliminado = _repoHotel.Detalle(4);
+        
+        Assert.Null(hotelEliminado);
+    }
+
 }

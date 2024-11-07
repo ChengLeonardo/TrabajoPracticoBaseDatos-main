@@ -21,7 +21,7 @@ call insert_ciudad(@idArgentina, 'Santiago del Estero', @idSantiagodelEstero);
 call insert_hotel(@idBuenosAires, 'Hotel Buenos Aires', 'Rivadavia 1', '11111111', 'https:.....', @idHotelBuenosAires);
 call insert_hotel(@idMendoza, 'Hotel Mendoza', 'Rivadavia 2', '11111112', 'https:....', @idHotelMendoza);
 call insert_hotel(@idSantiagodelEstero, 'Hotel BsAs', 'Rivadavia 3', '11111113', 'https:..', @idHotelSantiagodelEstero);
-
+call insert_hotel(@idSantiagodelEstero, 'Hotel BsAs', 'Rivadavia 4', '11111114', 'https:..........', @idHotelSantiagodelEstero2);
 -- delete from Hotel
 -- where idHotel in (1, 2, 3);
 
